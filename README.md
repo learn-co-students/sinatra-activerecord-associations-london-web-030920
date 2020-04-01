@@ -101,7 +101,7 @@ We now know what our table should look like. However, we haven't told our applic
 Before we write our association let's think about our table structure: A cat belongs to an owner, and an owner can have many cats.
 
 This translates into ruby like this:
-
+d
 ```ruby
 class Cat
   belongs_to :owner
